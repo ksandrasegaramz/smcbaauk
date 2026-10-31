@@ -767,3 +767,15 @@ body.launching { overflow: hidden; }
   .section { padding: 4rem 0; }
   .hero { padding: 4rem 0 4.5rem; }
 }
+
+/* ---- Story pages (e.g. insiv-awareness.html) ---- */
+.back-link { max-width: 820px; margin: 0 auto 1.4rem; font-size: 0.95rem; }
+.back-link a { color: var(--navy); font-weight: 600; text-decoration: none; }
+.back-link a:hover { color: var(--red); }
+.project-figure--portrait { max-width: 460px; margin-inline: auto; }
+
+/* Cover photo at the top of a project card (projects.html) */
+.project-cover { display: block; margin: 1.6rem 0 1.8rem; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: var(--navy-deep); }
+.project-cover img { display: block; width: 100%; aspect-ratio: 2 / 1; object-fit: cover; transition: transform 0.6s var(--ease); }
+a.project-cover:hover img, a.project-cover:focus-visible img { transform: scale(1.04); }
+.project-head + .project-body { margin-top: 1rem; }
